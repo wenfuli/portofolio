@@ -9,8 +9,8 @@ export default function Navbar() {
                 <div className="flex flex-wrap">
                     <div className="px-6 lg:w-3/4 w-1/2 self-center">
                         <Link href="/" className="text-white font-bold font-firaCode lg:text-2xl text-sm">
-                            <img color="primary"  alt="profile itc" src={"https://media.discordapp.net/attachments/1125700600387084318/1137618207851675648/slime.jpg?width=359&height=359"} className="inline rounded-full lg:w-[50px] w-[30px] border-2 border-boxColor" />
-                            <span className="ml-2">IT Club</span>
+                            <img color="primary"  alt="profile itc" src={"/assets/logo.png"} className="inline rounded-full lg:w-[50px] w-[30px] border-2 border-boxColor" />
+                            <span className="ml-2">MiTravelList</span>
                         </Link>
                     </div>
                     <div className="lg:px-12 px-3 lg:w-1/4 w-1/2 space-x-2 lg:space-x-8 self-center">

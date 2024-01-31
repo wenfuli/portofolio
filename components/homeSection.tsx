@@ -12,7 +12,10 @@ export default function HomeSection() {
                     <div className="px-6">
                         <a className="text-blue-300 lg:text-xl text-md font-firaCode flex flex-wrap space-x-3 ">
                             <h1 className="pt-1 text-teal-500 invisible lg:visible"><HiArrowNarrowRight /></h1>
-                            <h1 className="font-firaCode font-semibold lg:text-xl text-md"><span className="text-blue-300 inline">home </span><span className="inline text-blue-800">git:(</span><span className="inline text-red-600">master</span><span className="text-blue-800">)</span> $ <span className="inline-block text-white">./welcome.sh</span></h1>
+                            <h1 className="font-firaCode font-semibold lg:text-xl text-md">
+                                <span className="text-blue-300 inline">MiTravelList </span>
+                                
+                            </h1>
                         </a>
                         
                     </div>
@@ -20,8 +23,8 @@ export default function HomeSection() {
                         <Image src={"/assets/bumi.webp"} width={400} height={400} alt="Maskot ITC" className=""/>
                     </div>
                     <div className="w-full text-center px-6">
-                        <h1 className="font-rubikFont lg:text-4xl font-bold text-shadowBox text-lg">Welcome to website IT Club 22</h1>
-                        <h3 className="font-firaCode text-sm lg:text-2xl italic text-gray-400 lg:mb-10 mb-5">Selamat Datang di Website IT Club 22</h3>
+                        <h1 className="font-rubikFont lg:text-4xl font-bold text-shadowBox text-lg">Welcome to website MiTravelList 22</h1>
+                        <h3 className="font-firaCode text-sm lg:text-2xl italic text-gray-400 lg:mb-10 mb-5">Selamat Datang di Website MiTravelList 22</h3>
                     </div>
                 </div>
 
@@ -36,12 +39,12 @@ export default function HomeSection() {
                         <AboutWe />
                     </div>
                     <div className="w-full lg:w-1/2 pt-5 px-6">
-                        <h1 className="font-firaCode lg:text-3xl font-bold text-shadowBox text-lg">Hello 👋, we are itclub 22</h1>
+                        <h1 className="font-firaCode lg:text-3xl font-bold text-shadowBox text-lg">Hello 👋, we are MiTravelList</h1>
                         <a className="font-firaCode text-sm lg:text-2xl text-gray-400 lg:mb-10 mb-5 flex flex-wrap space-x-3">
                             <h1 className="pt-1"><HiChevronDoubleRight /></h1>
                             <TypedAnim />
                         </a>
-                        <p className="font-firaCode text-sm lg:text-lg font-thin text-gray-300 lg:w-11/12 mb-10">Ekstrakurikuler ini bertujuan untuk mengasah bakat dan minat siswa didalam bidang Infromatika dan teknologi seperti mempelajari bahasa pemograman, membuat website, E-Sport, membahas seputar teknologi dan komputer. Ekskul ini juga biasa dilakukan untuk persiapan olimpiade komputer nasional atau lomba-lomba seputar teknologi dan informatika.</p>
+                        <p className="font-firaCode text-sm lg:text-lg font-thin text-gray-300 lg:w-11/12 mb-10">A simple and easy-to-use personal travel packing list tool that provides self-service addition of personal travel packing list, as well as deletion functions, etc..</p>
                         <div className="grid grid-cols-8 lg:w-8/12">
                             <a className={`bg-black py-5 px-5`}></a>
                             <a className={`bg-red-400 py-5 px-5`}></a>
